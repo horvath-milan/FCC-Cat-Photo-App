@@ -1,0 +1,68 @@
+body {
+  font-family: Tahoma;
+
+  background: #9F815D url(https://f4.bcbits.com/img/a2022205300_16.jpg) repeat-y top center;
+}
+h1{
+  font-size: 3em;
+}
+p{
+  font-size: 1.2em;
+  font-style: italic;
+}
+h1, p{
+  margin-top: 7;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+main{
+  background-color:rgba(167, 161, 139, 0.8);
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  width: 80%;
+  background-color: rgba(167, 161, 139, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  min-width: 300px;
+  max-width: 500px;
+  font-weight:500;
+}
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type{
+  border-bottom: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input{
+  width: 100%;
+}
+.inline{
+  width: unset;
+  vertical-align:text-bottom;
+  display: inline;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-style:inherit;
+  font-size: 1.2em;
+  background:linear-gradient(#5E2D1E,#B38E71,#A9A393);
+  cursor: pointer;
+}

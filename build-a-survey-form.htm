@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"></meta>
+  <link rel="stylesheet" href="styles.css">
+  <title>mewithoutYou quiz</title>
+ </head>
+<body>
+  <main>
+    <h1 id="title">mewithoutYou Quiz</h1>
+    <p id="description">It's all crazy! It's all false! It's all a dream! It's alright.</p>
+  </main>
+  <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+<fieldset>
+  <label for="name" id="name-label">Name <input id="name" name="name" type="text" placeholder="You think you're you" required /></label>
+  <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="You're not you" required/></label>
+  <label for="number" id="number-label"> Age (optional) <input id="number" name="age" type="number" min="13" max="120" placeholder="You're everyone else" /></label>
+  </fieldset>
+  <fieldset>
+<label for="dropdown">Which one do you have? <select id="dropdown" name="fox-and-crow">
+  <option value="no"></option>
+  <option value="walnut-brownie-brain">A walnut brownie brain</option>
+  <option value="molasses-in-my-veins">Molasses in your veins</option>
+  <option value="carob-colored-almond-eyes"> Carob colored almond eyes</option>
+  <option value="passion-in-my-caw">Passion in your caw</option>
+  <option value="powdered-sugar-funnel-cake-cocaine">Powdered sugar funnel cake cocaine</option>
+  <option value="slender-bill-known-through-the-escadrille"> A slender bill known through the escadrille</option>
+  <option value="fierce-commanding-claw"> Fierce commanding claw</option>
+</select>
+  </label>
+  </fieldset>
+  <fieldset>
+    <legend>Which one would you rather be?</legend>
+    <label for="door-radio" ><input class="inline" id="door-radio" value="a-door-without-a-key" type="radio" name="sweater" checked> A door without a key</label>
+   <label for="field-radio" ><input class="inline" id="field-radio" value="a-field without-a-fence" type="radio" name="sweater"> A field without a fence</label>
+  <label for="boat-radio" ><input class="inline" id="boat-radio" value="a-boat-out-in-the-blue" type="radio" name="sweater"> A boat out in the blue</label>
+  <label for="crown-radio" ><input class="inline" id="crown-radio" value="crown-without-a-king" type="radio" name="sweater"> A crown without a king</label>
+  <label for="seed-radio" ><input class="inline" id="seed-radio" value="broken-open-seed" type="radio" name="sweater"> A broken open seed</label>
+  </fieldset>
+  <fieldset>
+    <legend>Which ones are charachters of the "It's all crazy!" album?</legend>
+    <label for="david-checkbox">
+      <input
+      class="inline" 
+      id="david-checkbox" 
+      name="characters" 
+      value="David" 
+      type="checkbox">David</label>
+    <label for="fox-checkbox"><input class="inline" id="fox-checkbox" name="character" value="Fox" type="checkbox">Fox</label>
+    <label for="children-checkbox"><input class="inline" id="children-checkbox" name="characters" value="Village children" type="checkbox">Village Children</label>
+    <label for="tortoise-checkbox"><input class="inline" id="tortoise-checkbox" name="characters" value="Tortoise-in-the-wheelchair" type="checkbox">Tortoise in the wheelchair</label>
+    <label for="elephant-checkbox"><input class="inline" id="elephant-checkbox" name="characters" value="Elephant" type="checkbox">Elephant</label>
+    <label for="deer-checkbox"><input class="inline" id="deer-checkbox" name="characters" value="Deer" type="checkbox">Deer</label>
+    <label for="wives-checkbox"><input class="inline" id="wives-checkbox" name="characters" value="Boatmen's wives" type="checkbox">Boatmen's wives</label>
+    <label for="moses-checkbox"><input class="inline" id="moses-checkbox" name="characters" value="Moses" type="checkbox">Moses</label>
+    <label for="kasparov-checkbox"><input class="inline" id="kasparov-checkbox" name="characters" value="Kasparov" type="checkbox">Kasparov</label>
+    <label for="sunfish-checkbox"><input class="inline" id="sunfish-checkbox" name="characters" value="Sunfish" type="checkbox">Sunfish</label>
+    <label for="lamellicorn-checkbox"><input class="inline" id="lamellicorn-checkbox" name="characters" value="Lamellicorn" type="checkbox">Lamellicorn</label>
+    <label for="amanda-checkbox"><input class="inline" id="amanda-checkbox" name="characters" value="Amanda" type="checkbox">Amanda</label>
+  </fieldset>
+  <fieldset>
+    <label for="beetle-king">What does the Beetle King offer for the Great Light? <textarea id="beetle-king" name="beetle-king" rows="3" cols="30"></textarea></label>
+  </fieldset>
+  <input type="submit" id="submit" value="Submit">
+</form>
+</body>
+</html>
